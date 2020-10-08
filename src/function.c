@@ -46,7 +46,7 @@ int fact(int input1)
         printf("Error! Factorial of a negative number doesn't exist.");
     else {
         for (factiterator = 1; factiterator <= input1; ++factiterator) {
-            fact *= i;
+            fact *= factiterator;
         }
         return fact;
     }
