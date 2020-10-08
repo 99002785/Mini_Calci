@@ -41,11 +41,11 @@ int modulus(int input1,int input2)
 
 int fact(int input1)
 {
-    int i,fact =1;
+    int factiterator,fact =1;
     if (input1 < 0)
         printf("Error! Factorial of a negative number doesn't exist.");
     else {
-        for (i = 1; i <= input1; ++i) {
+        for (factiterator = 1; factiterator <= input1; ++factiterator) {
             fact *= i;
         }
         return fact;
