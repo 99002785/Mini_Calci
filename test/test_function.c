@@ -5,8 +5,8 @@
 #define PROJECT_NAME "function"
 
 /* Prototypes for all the test functions */
-int test_add(int,int);
-int test_subtract(int,int);
+int test_add(void);
+int test_subtract(void);
 
 
 /* Start of the application test */
@@ -36,7 +36,7 @@ int main() {
   return 0;
 }
 /* Write all the test functions */
-int test_add(int,int) {
+int test_add(void) {
   CU_ASSERT(30 == add(10,20));
   CU_ASSERT(40 == add(8,32));
   CU_ASSERT(6 == add(3,3));
@@ -47,7 +47,7 @@ int test_add(int,int) {
   CU_ASSERT(100 == add(95,5));
 }
 
-int test_subtract(int,int) {
+int test_subtract(void) {
   CU_ASSERT(100 == subtract(200,100));
   CU_ASSERT(20 == subtract(60,40));
   CU_ASSERT(44 == subtract(100,56));
