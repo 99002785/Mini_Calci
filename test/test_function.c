@@ -36,7 +36,7 @@ int main() {
   return 0;
 }
 /* Write all the test functions */
-void test_factorial(int) {
+void test_add(int,int) {
   CU_ASSERT(30 == add(10,20));
   CU_ASSERT(40 == add(8,32));
   CU_ASSERT(6 == add(3,3));
@@ -47,7 +47,7 @@ void test_factorial(int) {
   CU_ASSERT(100 == add(95,5));
 }
 
-void test_prime(int) {
+void test_subtract(int,int) {
   CU_ASSERT(100 == subtract(200,100));
   CU_ASSERT(20 == subtract(60,40));
   CU_ASSERT(44 == subtract(100,56));
