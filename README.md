@@ -6,4 +6,3 @@
 ![Unit testing](https://github.com/99002785/Mini_Calci/workflows/Unit%20testing/badge.svg)
 
 
-https://github.com/99002785/Mini_Calci/invitations
